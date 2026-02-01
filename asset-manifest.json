@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/covoitapp-web/static/css/main.14a724c7.css",
+    "main.js": "/covoitapp-web/static/js/main.bfc0d140.js",
+    "static/js/453.349d4002.chunk.js": "/covoitapp-web/static/js/453.349d4002.chunk.js",
+    "index.html": "/covoitapp-web/index.html",
+    "main.14a724c7.css.map": "/covoitapp-web/static/css/main.14a724c7.css.map",
+    "main.bfc0d140.js.map": "/covoitapp-web/static/js/main.bfc0d140.js.map",
+    "453.349d4002.chunk.js.map": "/covoitapp-web/static/js/453.349d4002.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14a724c7.css",
+    "static/js/main.bfc0d140.js"
+  ]
+}
