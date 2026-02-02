@@ -31,6 +31,9 @@ function Navbar({ user }) {
             <Link to="/my-trips" className={location.pathname === '/my-trips' ? 'active' : ''}>
               Mes trajets
             </Link>
+            <Link to="/create-trip" className={location.pathname === '/create-trip' ? 'active' : ''}>
+  ➕         Proposer
+            </Link>
             <Link to="/messages" className={location.pathname === '/messages' ? 'active' : ''}>
               💬 Messages
             </Link>

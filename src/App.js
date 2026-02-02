@@ -9,6 +9,10 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Search from './pages/Search';
 import TripDetail from './pages/TripDetail';
+import CreateTrip from './pages/CreateTrip';
+import MyTrips from './pages/MyTrips';
+import Profile from './pages/Profile';
+import Notifications from './pages/Notifications';
 import './styles/App.css';
 
 function App() {
@@ -40,6 +44,10 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/search" element={<Search />} />
         <Route path="/trip/:id" element={<TripDetail />} />
+        <Route path="/create-trip" element={<CreateTrip />} />
+        <Route path="/my-trips" element={<MyTrips />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/notifications" element={<Notifications />} />
       </Routes>
       <Footer />
     </Router>
