@@ -26,7 +26,7 @@ function TripDetail() {
         navigate('/search');
         return;
       }
-      const tripData = { id: tripDoc.id, ...tripDoc.data() };
+      const tripData = { ...tripDoc.data(), id: tripDoc.id };
       setTrip(tripData);
 
       // Charger le profil du conducteur

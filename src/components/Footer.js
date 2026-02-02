@@ -9,8 +9,8 @@ function Footer() {
           © 2025 CovoitApp - Toulouse, France
         </div>
         <div className="footer-links">
-          <Link to="/terms">CGU</Link>
-          <Link to="/privacy">Confidentialité</Link>
+          <Link to="/cgu">CGU</Link>
+          <Link to="/privacy">Confidentialite</Link>
           <Link to="/contact">Contact</Link>
         </div>
       </div>

@@ -13,6 +13,11 @@ import CreateTrip from './pages/CreateTrip';
 import MyTrips from './pages/MyTrips';
 import Profile from './pages/Profile';
 import Notifications from './pages/Notifications';
+import Messages from './pages/Messages';
+import CGU from './pages/CGU';
+import Privacy from './pages/Privacy';
+import Contact from './pages/Contact';
+import Payment from './pages/Payment';
 import './styles/App.css';
 
 function App() {
@@ -48,6 +53,11 @@ function App() {
         <Route path="/my-trips" element={<MyTrips />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/notifications" element={<Notifications />} />
+        <Route path="/messages" element={<Messages />} />
+        <Route path="/cgu" element={<CGU />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/payment/:id" element={<Payment />} />
       </Routes>
       <Footer />
     </Router>
